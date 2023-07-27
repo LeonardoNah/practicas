@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Full Stack</title>
+</head>
+<body>
+    <ul>
+        <li><a href="../html/index.html">Ir a Unidad 1</a></li>
+        <li><a href="../html/unidad2.html">Ir a Unidad 2</a></li>
+    </ul>
+    <h1>MULTIMEDIA Y TABLAS</h1>
+    <b>Imagenes</b>
+    <p> img src="(URL)" alt="(Descripcion para el SEO)" width= "(para el tamaño)"</p>
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/T6HFQ7JDNRACDAMUGEGRK3BX3E.jpg" alt="camiseta boca" width="500">
+    <h1>Favicon</h1>
+    <p>Es la pequeña imagne que se muestra en la pestaña del navegador.</p>
+    <p> link rel="icon" href="logo.ico"</p>
+    <h1>IFRAME</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l4IA_kowfkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>TABLAS</h1>
+    <pre>
+        table: Representa a todo el elemento tabla.
+        tr: Table row: representa una fila o registro
+        td: Table data cell: representa a cada celda.
+        th: Table header: representa a una celda de 
+        encabezado</pre>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Mes</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>septiembre</td>
+                <td>1999</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>diciembre</td>
+                <td>1991</td>
+            </tr>
+        </table>
+        <h1>TABLAS | Colspan y Rowspan</h1>
+        <table border="1">
+            <tr>
+                <td rowspan="3">Zona Sur</td>
+                <td>Avellaneda</td>
+                <td>Lanus</td>
+            </tr>
+            <tr>
+                <td colspan="2">Banfield</td>
+            </tr>
+            <tr>
+                <td>Quilmes</td>
+                <td>Berazategui</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Zona Oeste</td>
+                <td>Moron</td>
+                <td>Merlo</td>
+            </tr>
+            <tr>
+                <td>Moreno</td>
+                <td>Haedo</td>
+            </tr>
+        </table>
+        <h1>FORMULARIOS</h1>
+        <fieldset>
+        <form action="Link" method="POST" target="_blank">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="apellido">Apellido: </label>
+            <input type="text" name="apellido" id="apellido"><br>
+            <label for="dirrecion">Dirrecion: </label>
+            <input type="text" name="dirrecion" id="dirrecion"><br>
+            <label for="correo">Correo: </label>
+            <input type="email" name="correo" id="correo"><br>
+            <label for="telefono">Telefono: </label>
+            <input type="number" name="telefono" id="telefono"><br>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar">
+        </form>
+    </fieldset>
+</body>
+</html>
